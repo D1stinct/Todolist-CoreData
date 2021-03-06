@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1220195A25DDA5B700E1952F /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryViewController.swift; path = Todoey/View/CategoryViewController.swift; sourceTree = SOURCE_ROOT; };
+		1220195A25DDA5B700E1952F /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		12D27DE025BCBA4700DAD292 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		EB2BE4F6239524DB00FB933B /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2BE4F9239524DB00FB933B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +39,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		127AE3CB25F3CAAE004EFB84 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1220195A25DDA5B700E1952F /* CategoryViewController.swift */,
+				EB2BE4FD239524DB00FB933B /* ToDoListViewController.swift */,
+			);
+			name = Controller;
+			path = Controller/Controller;
+			sourceTree = "<group>";
+		};
 		12C075D325BB675B00E817CE /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -51,18 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				EB2BE4FF239524DB00FB933B /* Main.storyboard */,
-				12C075D725BB677A00E817CE /* Controller */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		12C075D725BB677A00E817CE /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				1220195A25DDA5B700E1952F /* CategoryViewController.swift */,
-				EB2BE4FD239524DB00FB933B /* ToDoListViewController.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		12C075D825BB681000E817CE /* Supporting Files */ = {
@@ -96,6 +96,7 @@
 				EB2BE4F9239524DB00FB933B /* AppDelegate.swift */,
 				12C075D325BB675B00E817CE /* Model */,
 				12C075D525BB676A00E817CE /* View */,
+				127AE3CB25F3CAAE004EFB84 /* Controller */,
 				12C075D825BB681000E817CE /* Supporting Files */,
 				EB2BE507239524DC00FB933B /* Info.plist */,
 			);
